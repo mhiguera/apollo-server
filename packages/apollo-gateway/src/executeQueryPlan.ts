@@ -20,10 +20,11 @@ import {
   ResponsePath,
   OperationContext,
   SelectionNode,
-  FieldNode
+  FieldNode,
+  // todo move back to utilities/graphql after done with everything
+  getResponseName,
 } from './QueryPlanNew';
 import { deepMerge } from './utilities/deepMerge';
-import { getResponseName } from './utilities/graphql';
 
 export type ServiceMap = {
   [serviceName: string]: GraphQLDataSource;

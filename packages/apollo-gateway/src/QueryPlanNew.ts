@@ -99,3 +99,8 @@ export function serializeQueryPlanNode (k: string , v: any) {
 export function transformQueryPlan(queryPlan: OldQueryPlan): QueryPlan {
   return JSON.parse(JSON.stringify(queryPlan, serializeQueryPlanNode));
 }
+
+
+export function getResponseName(node: FieldNode): string {
+  return node.alias ? node.alias : node.name;
+}
