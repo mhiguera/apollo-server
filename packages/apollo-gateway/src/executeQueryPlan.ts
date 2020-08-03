@@ -23,7 +23,7 @@ import {
   FieldNode,
   // todo move back to utilities/graphql after done with everything
   getResponseName,
-} from './QueryPlanNew';
+} from './QueryPlan';
 import { deepMerge } from './utilities/deepMerge';
 
 export type ServiceMap = {
