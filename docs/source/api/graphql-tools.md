@@ -450,7 +450,7 @@ RenameRootFields(
 
 ### Other
 
-* `ExractField({ from: Array<string>, to: Array<string> })` - move selection at `from` path to `to` path.
+* `ExtractField({ from: Array<string>, to: Array<string> })` - move selection at `from` path to `to` path.
 
 * `WrapQuery(
     path: Array<string>,
