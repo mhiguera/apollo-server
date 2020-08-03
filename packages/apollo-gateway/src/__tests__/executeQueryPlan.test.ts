@@ -21,7 +21,7 @@ import { LocalGraphQLDataSource } from '../datasources/LocalGraphQLDataSource';
 
 import { astSerializer, queryPlanSerializer } from '../snapshotSerializers';
 import { fixtureNames } from './__fixtures__/schemas';
-import { transformQueryPlan } from '../QueryPlanNew';
+import { transformQueryPlan } from '../QueryPlan';
 
 expect.addSnapshotSerializer(astSerializer);
 expect.addSnapshotSerializer(queryPlanSerializer);
